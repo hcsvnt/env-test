@@ -25,7 +25,7 @@ export default function Home() {
                 <p>
                     <code>TEST</code> is {globalNotPublicEnv}
                 </p>
-            </div>
+          </div>
             <ClientComponent propEnv={notPublicEnv} globalPropEnv={globalNotPublicEnv} />
         </main>
     );
